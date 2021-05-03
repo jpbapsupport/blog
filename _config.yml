@@ -3,29 +3,35 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Title (display)
-title: Japan CSS Support Example Blog
+title: Japan Power BI Support Blog
 # Sub Title (display)
-subtitle: Japan CSS Support Example Blog
+subtitle: '日本マイクロソフト Power BI サポート チームのブログです'
 # Description
-description: Japan CSS Support Example Blog
+description: '日本マイクロソフト Power BI サポート チームのブログです'
 
 # Keywords
 keywords:
-  - Information
+  - Power BI
+  - Power BI Desktop
+  - Power BI Embedded
+  - Power BI Premium
 
-author: CSS Japan
+author: Power BI Support Japan
 
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-    - Information
+    - Power BI
+    - Power BI Desktop
+    - Power BI Embedded
+    - Power BI Premium
   sub_tag_limit: 20
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cssjpn.github.io/example-blog/
+url: https://jpbapsupport.github.io/blog/
 github:
-  url: https://github.com/cssjpn/blog-example/
+  url: https://github.com/jpbapsupport/blog
   posts_dir: articles
 
 skip_render:
@@ -39,7 +45,7 @@ skip_render:
 ## Docs: https://hexo.io/doc  s/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cssjpn/blog-example.git
+  repo: git@github.com:jpspsupport/blog.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [skip ci]"
 
