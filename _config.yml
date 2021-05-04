@@ -21,10 +21,8 @@ author: Power BI Support Japan
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-    - Power BI
-    - Power BI Desktop
-    - Power BI Embedded
-    - Power BI Premium
+    - Power Service
+      - Workspace
   sub_tag_limit: 20
 
 # URL
